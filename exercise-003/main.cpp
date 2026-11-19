@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
     fmt::println("The full version from the lib: {}",fullVersion());
     fmt::println("The major version from the lib: {}",major());
     fmt::println("The minor version from the lib: {}",minor());
-    fmt::println("The minor version from the lib: {}",patch());
+    fmt::println("The patch version from the lib: {}",patch());
 
     return 0; /* exit gracefully*/
 }
